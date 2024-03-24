@@ -33,11 +33,11 @@ const Footer = (props) => {
     gitHub,
     instagram,
     linkedIn,
-    medium,
+    medium = null,
     name,
     primaryColor,
     twitter,
-    youTube,
+    youTube = null,
   } = props;
 
   return (
@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw", 
       }}
     >
       <div
